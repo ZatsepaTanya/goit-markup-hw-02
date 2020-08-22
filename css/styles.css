@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+
+}
+body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+.logo > span{
+    color: var(--accent-color);
+    }
+.logo {
+    color: black;
+}
+.list {
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color); 
+}
+ 
+.mail .link {
+     color: var(--primary-text-color);
+}
+.mail .link:hover,
+.mail .link:focus{
+    color: var(--accent-color);  
+}
+.hero {
+    background: #2F303A;
+}
+.hero-title {
+    color: #ffffff;
+}
+.hero .button{
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+.features .title {
+    color: var(--title-text-color);
+}
+.section-title {
+    color: var(--title-text-color);
+}
+.company-title {
+    color: var(--title-text-color);
+}
+.post {
+    background-color: #000000;
+}
+.post-logo {
+    color: #ffffff;
+}
+.post-logo > span{
+    color: var(--accent-color);
+}
+.address{
+    color:#ffffff;
+}
+.address .link{
+    color: rgba(255, 255, 255, 0.6);
+}
+.site-nav .current{
+    color: var(--accent-color);
+}
+.example .title{
+    color: var(--title-text-color)
+}
