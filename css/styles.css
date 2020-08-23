@@ -19,6 +19,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .list {
     list-style: none;
@@ -30,6 +31,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -42,6 +44,7 @@ body {
      font-weight: 500;
      font-size: 14px;
      line-height: 1.14;
+     text-decoration: none;
 }
 .mail .link:hover,
 .mail .link:focus{
@@ -104,6 +107,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .post-logo > span{
     color: var(--accent-color);
@@ -115,9 +119,16 @@ body {
 }
 .address .link{
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.address > p{
+    font-style: normal;
 }
 .site-nav .current{
     color: var(--accent-color);
+    }
+.example-work{
+    text-decoration: none;
 }
 .example .title{
     color: var(--title-text-color);
