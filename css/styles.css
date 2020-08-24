@@ -117,13 +117,11 @@ body {
     color:#ffffff;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
 }
 .address .link{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
-.address > p{
-    font-style: normal;
 }
 .site-nav .current{
     color: var(--accent-color);
